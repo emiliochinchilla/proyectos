@@ -1,0 +1,66 @@
+ *** Datos del producto ***
+El nombre del producto es: asd<br><br>
+El codigo de producto es: 111111<br><br>
+La fecha en la que se ingresó el producto: 2022-10-11<br><br>
+El proveedor es: p1<br><br>
+El tipo de producto es: inyectable<br><br>
+La cantidad de producto ingresado es: 15<br><br>
+El precio del producto por unidad es: 10<br><br>
+El precio total de los productos es: 150<br><br>
+El producto no tiene requerimientos especiales<br><br>
+El precio total de los productos + IVA es: 169.49999999999997<br><br>
+Los detalles adicionales del producto son: 
+ *** Datos del producto ***
+El nombre del producto es: Panadol<br><br>
+El codigo de producto es: 111111<br><br>
+La fecha en la que se ingresó el producto: 2022-10-11<br><br>
+El proveedor es: p3<br><br>
+El tipo de producto es: oral<br><br>
+La cantidad de producto ingresado es: 15<br><br>
+El precio del producto por unidad es: 10<br><br>
+El precio total de los productos es: 150<br><br>
+Los requerimientos del producto son: <br><br>
+**Requiere refrigeración<br><br>
+El precio total de los productos con costos de refrigeración es: 160.5<br><br>
+El precio total de los productos con costos de refrigeración + IVA es: 181.36499999999998<br><br><br><br>
+Los detalles adicionales del producto son: 
+ *** Datos del producto ***
+El nombre del producto es: Peptobismol<br><br>
+El codigo de producto es: 541<br><br>
+La fecha en la que se ingresó el producto: 2022-10-11<br><br>
+El proveedor es: p1<br><br>
+El tipo de producto es: oral<br><br>
+La cantidad de producto ingresado es: 18<br><br>
+El precio del producto por unidad es: 10<br><br>
+El precio total de los productos es: 180<br><br>
+Los requerimientos del producto son: <br><br>
+**Requiere refrigeración<br><br>
+El precio total de los productos con costos de refrigeración es: 192.60000000000002<br><br>
+El precio total de los productos con costos de refrigeración + IVA es: 217.638<br><br><br><br>
+Los detalles adicionales del producto son: 
+ *** Datos del producto ***
+El nombre del producto es: Tramal<br><br>
+El codigo de producto es: 548946<br><br>
+La fecha en la que se ingresó el producto: 2022-11-03<br><br>
+El proveedor es: p1<br><br>
+El tipo de producto es: inyectable<br><br>
+La cantidad de producto ingresado es: 50<br><br>
+El precio del producto por unidad es: 500<br><br>
+El precio total de los productos es: 25000<br><br>
+Los requerimientos del producto son: <br><br>
+**Requiere receta médica<br><br>
+Los detalles adicionales del producto son: 
+ *** Datos del producto ***
+El nombre del producto es: T3<br><br>
+El codigo de producto es: 98<br><br>
+La fecha en la que se ingresó el producto: 2022-10-19<br><br>
+El proveedor es: p3<br><br>
+El tipo de producto es: inyectable<br><br>
+La cantidad de producto ingresado es: 14<br><br>
+El precio del producto por unidad es: 6500<br><br>
+El precio total de los productos es: 91000<br><br>
+Los requerimientos del producto son: <br><br>
+**Requiere refrigeración<br><br>
+El precio total de los productos con costos de refrigeración es: 97370.0<br><br>
+El precio total de los productos con costos de refrigeración + IVA es: 110028.09999999999<br><br><br><br>
+Los detalles adicionales del producto son: 

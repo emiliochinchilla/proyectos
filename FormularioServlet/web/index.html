@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Ingreso de usuarios</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        
+        <div class="formulario">
+        <h3>Ingreso de usuarios</h3> 
+        
+        <form name="registro" action="ValidarRegistro" method="POST">
+            
+            <label class="titulo">Nombre</label> 
+            <input class="campo" type="text" name="nombre" value="" placeholder="Ingrese su nombre" required>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Cédula</label>
+            <div class="no-spin">
+            <input class="campo" type="number" name="cedula" value="" placeholder="Ingrese su cédula" required>
+            </div>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Fecha de nacimiento</label> 
+            <input class="campo" type="date" name="edad" value="" required>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Seleccione su perfil de usuario</label>
+            <select class="campo" name="perfil" required>
+                <option value="administrador">Administrador</option>
+                <option value="supervisor">Supervisor</option>
+                <option value="consultor">Consultor</option>
+            </select>
+            <br/>
+            <br/>
+            
+            
+            <label class="titulo">Correo electrónico</label>            
+            <input class="campo" type="email" name="email" value="" placeholder="Ingrese su email" required>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Usuario</label> 
+            <input class="campo" type="text" name="usuario" value="" placeholder="Usuario" required>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Digite su contraseña</label> 
+            <input class="campo" type="password" name="pass" value="" placeholder="Contraseña" required>
+            <br>
+            <br>
+            <input class="boton" name="aceptar" type="submit" value="Ingresar"/>
+            <input class="boton" name="cancelar" type="reset" value="Cancelar"/>
+        </form>
+        <a href="viviendas.html">Ingreso viviendas</a>
+
+        </div>
+    </body>
+</html>

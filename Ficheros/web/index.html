@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Farmacia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    </head>
+    <body>
+        <div id="header">
+			<ul class="nav">
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Servicios</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a>
+							<ul>
+								<li><a href="">Submenu1</a></li>
+								<li><a href="">Submenu2</a></li>
+								<li><a href="">Submenu3</a></li>
+								<li><a href="">Submenu4</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Acerca de</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a></li>
+					</ul>
+				</li>
+				<li><a href="">Contacto</a></li>
+			</ul>
+		</div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h1>Productos farmacéuticos</h1>
+        <form action="registro.jsp" name="producto" method="POST">
+            <label class="titulo">Nombre del producto</label> 
+            <input class="campo" type="text" name="nombre" value="" placeholder="Ingrese el nombre del producto" required>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Código numérico</label>
+            <input class="campo" type="number" name="codigo" value="" placeholder="Ingrese el código del producto" required>
+            <br/>
+            <br/>
+            
+            <label>Fecha de ingreso</label>
+            <input type="date" name="fechaingreso" value="">
+            <br/>
+            <br/>
+            
+            <label class="titulo">Seleccione su proveedor</label>
+            <select class="campo" name="proveedor" required>
+                <option value="p1">P1</option>
+                <option value="p2">P2</option>
+                <option value="p3">P3</option>
+            </select>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Seleccione el tipo de producto</label>
+            <select class="campo" name="tipoproducto" required>
+                <option value="inyectable">Inyectable</option>
+                <option value="topico">Uso tópico</option>
+                <option value="oral">Oral</option>
+            </select>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Requerimientos adicionales:</label> 
+            <br/>
+            <br/>
+            <input class="" type="checkbox"  name="refrigeracion" value="Necesita refrigeración" >
+            <label for="refrigeracion">Necesita refrigeración</label><br/><br/>
+            <input class="" type="checkbox"  name="receta" value="" >
+            <label for="receta">Unicamente con receta médica</label><br/><br/>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Cantidad a registrar</label>
+            <input class="campo" type="number" name="cantidad" value="" placeholder="Ingrese la cantidad a registrar" required>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Precio unitario</label>
+            <input class="campo" type="number" name="precio" value="" placeholder="Ingrese el precio unitario" required>
+            <br/>
+            <br/>
+            
+            <label for="detalles">Detalles</label>
+            <br/>
+            <br/>
+            <textarea id="detalles" name="detalles" rows="5" cols="42"></textarea>
+            <br>
+            <br>
+            
+            <input class="boton" type="submit" value="Registrar" name="registrar">
+            <input class="boton" type="reset" value="Borrar" name="borrar">
+            <a href="MostrarDatos.jsp">Mostrar datos</a>
+            
+        </form>
+    </body>
+</html>

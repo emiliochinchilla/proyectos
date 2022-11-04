@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro de vivienda</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        
+        <div class="formulario">
+        <h3>Registro de vivienda</h3> 
+        
+        <form name="vivienda" action="ValidarVivienda" method="POST">
+            
+            <label class="titulo">Seleccione el numero de pisos:</label><br/><br/>
+            <input  id="1" type="radio" name="pisos" value="1" required>
+            <label for="1">1 piso</label><br/><br/>
+            <input  id="2" type="radio" name="pisos" value="2" required>
+            <label for="2">2 pisos</label><br/><br/>
+            <input  id="3" type="radio" name="pisos" value="3" required>
+            <label for="3">3 pisos</label><br/><br/>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Ingrese el precio:</label>
+            <br/>
+            <br/>
+            <div class="no-spin">
+            <input class="" type="number" name="precio" value="" required>
+            </div>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Seleccione el color de la fachada:</label><br/>            
+            <br/>
+            <input class="" type="color" name="color" value="" required>
+            <br/>
+            <br/>
+            
+            <label class="titulo">Selecciones los extras de la vivienda:</label> 
+            <br/>
+            <br/>
+            <input class="" type="checkbox" id="piscina" name="piscina" value="piscina" placeholder="" >
+            <label for="piscina">Piscina</label><br/><br/>
+            <input class="" type="checkbox" id="garaje" name="garaje" value="garaje" placeholder="" >
+            <label for="garaje">Garaje</label><br/><br/>
+            <input class="" type="checkbox" id="jardin" name="jardin" value="jardin" placeholder="" >
+            <label for="jardin">Jardin</label><br/><br/>
+            <br/>
+            <br/>
+            
+            <label for="observaciones">Observaciones</label>
+            <br/>
+            <br/>
+            <textarea id="observaciones" name="observaciones" rows="5" cols="42"></textarea>
+            <br>
+            <br>
+            
+            <input class="boton" name="aceptar" type="submit" value="Ingresar"/>
+            <input class="boton" name="cancelar" type="reset" value="Cancelar"/>
+            
+        </form>
+
+        </div>
+    </body>
+</html>
