@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Productos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="Validar" name="login" method="POST">
+            Digite el codigo del producto
+            <input name="codigo" type="number" value="" required/><br/><br/>
+            Digite la marca del producto
+            <input name="marca" type="text" value="" required/><br/><br/>
+            Digite el precio del producto
+            <input name="precio" type="number" value="" required/><br/><br/>
+            Digite la fecha de registro
+            <label for="proveedor">Seleccione el proveedor</label>
+            <select name="proveedor" id="proveedor">
+                <option value="Z1">Z1</option>
+                <option value="Z2">Z2</option>
+                <option value="Z3">Z3</option>
+            </select><br/><br/>
+            Ingrese la cantidad de productos
+            <input name="cantidad" type="number" value="" required/><br/><br/>
+            
+            
+            <input name="aceptar" type="submit" value="Ingresar"/>
+            <input name="cancelar" type="reset" value="Cancelar"/>
+        </form>
+        <a href="login.html">Login</a>
+    </body>
+</html>
